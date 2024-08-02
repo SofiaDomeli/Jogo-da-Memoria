@@ -49,7 +49,7 @@ const gerarJogo = () => {
         throw new Error("A dimensão do tabuleiro deve ser um número par!")
     }
 
-    const emojis = ['🥔', '🍒', '🥑', '🌽', '🥕', '🍇', '🍉', '🍌', '🥭', '🍍']
+    const emojis = ['🐻‍❄️', '🪼', '🐼', '🐈‍⬛', '🐆', '🐬', '🐳', '🦉', '🦢', '🦊']
     const escolhas = selecionarAleatorio(emojis, (dimensoes * dimensoes) / 2)
     const itens = embaralhar([...escolhas, ...escolhas])
     const cartas = `
